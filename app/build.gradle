@@ -1,0 +1,12 @@
+plugins {
+    id 'com.programpanel.library'
+}
+
+dependencies {
+    implementation(project(':core'))
+}
+
+test {
+    // Expects the default plugins JARs to be built and moved to data/plugins
+    dependsOn ':plugin:database:sqlite:build'
+}
