@@ -1,5 +1,6 @@
 ![License](https://img.shields.io/github/license/ProgramPanel/ProgramPanel)
 ![Build and Test](https://github.com/ProgramPanel/ProgramPanel/actions/workflows/build-test.yml/badge.svg)
+![Coverage](.github/badges/jacoco.svg)
 
 
 # ProgramPanel
